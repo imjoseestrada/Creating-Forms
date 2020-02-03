@@ -1,0 +1,23 @@
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input, textarea, select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input[type="submit"]:focus#styled, button[type="submit"]:focus#styled {
+    border: 2px solid green;
+    outline: none;
+}
+
+input[type="submit"]:hover#styled, button[type="submit"]:hover#styled {
+    border: 2px solid red;
+    outline: none;
+}
+
+input[type="submit"]:active#styled, button[type="submit"]:active#styled {
+    background-color: orange;
+}

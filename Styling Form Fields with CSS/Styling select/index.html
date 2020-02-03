@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Styling select</title>
+</head>
+<body>
+    <form action="" method="post" id="questions" name="questions">
+        <label for="favcolor">What is your favorite color?</label>
+        <select name="favcolor" id="favcolor">
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            <option value="red">red</option>
+        </select>
+
+        <label for="dessert">What is your favorite dessert?</label>
+        <select name="dessert" id="dessert">
+            <optgroup label="pies">
+                <option value="apple pie">apple pie</option>
+                <option value="pumpkin pie">pumpkin pie</option>
+            </optgroup>
+            <optgroup label="cakes">
+                <option value="chocolate cake">chocolate cake</option>
+                <option value="lemon cake">lemon cake</option>
+            </optgroup>
+        </select>
+
+        <label for="season">What is your favorite season?</label>
+        <select name="season" id="season" multiple>
+            <option value="spring">spring</option>
+            <option value="summer">summer</option>
+            <option value="fall">fall</option>
+            <option value="winter">winter</option>
+        </select>
+
+        <label for="pizza">What is your favorite pizza toppings?</label>
+        <select name="pizza" id="pizza" multiple>
+            <optgroup label="veggies">
+                <option value="mushroom">mushroom</option>
+                <option value="onions">onions</option>
+            </optgroup>
+            <optgroup label="meats">
+                <option value="pepperoni">pepperoni</option>
+                <option value="sausage">sausage</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
